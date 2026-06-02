@@ -1,8 +1,8 @@
 Pacific Trails Resort - HW2
 
 GitHub Pages URL:
-http://prestoneius.github.io/Completed-GUI-HW2/index.html
+https://prestoneius.github.io/hw2-pacific-trails/
 
 GitHub Repository URL:
-https://github.com/prestoneius/Completed-GUI-HW2
+https://github.com/Prestoneius/hw2-pacific-trails
 
