@@ -1,0 +1,144 @@
+/*
+File: pacific.css
+GUI Assignment: HW2
+Author: Preston Wilson
+Date Created: May 30, 2026
+Description: This is the .css file that is used to manipulate the appearance of the source index.html file.
+			- Adding a gradient and better overall visual appeal to the vacationing themed website.
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+
+/*Here is our pages gradient setup*/
+body {
+	background-color: #00569f;
+	background-image: url(ptrbackground.jpg);
+	background-repeat: repeat-x;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+}
+
+/*Centers out the page*/
+#wrapper {
+	background-color: #90c7e3;
+	margin: 20px auto;
+	min-width: 600px;
+	width: 80%;
+}
+
+/*Gives the top of the page a nice sunset image with better coloring*/
+header {
+	background-color: #000033;
+	background-image: url(sunset.jpg);
+	background-position: right;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 2em;
+	letter-spacing: 0.05em;
+	line-height: 1.2;
+	margin: 0;
+	padding: 10px 20px;
+}
+
+nav {
+	float: left;
+	font-weight: bold;
+	padding: 20px 10px 0 20px;
+	width: 160px;
+}
+
+nav ul {
+	font-size: 1.2em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*Removes the underlines from the navigation links*/
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #000033;
+}
+
+nav a:visited {
+	color: #344873;
+}
+
+nav a:hover {
+	color: #FFFFFF;
+}
+
+
+/*Places the white area box so that the navigation can be easily recognized/seen*/
+#content {
+	background-color: #FFFFFF;
+	margin-left: 190px;
+	padding: 20px 20px 20px 30px;
+}
+
+#content::after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+#content img {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+
+#content ul {
+	list-style-image: url(marker.gif);
+	list-style-position: outside;
+}
+
+#content li {
+	padding-left: 4px;
+}
+
+h2 {
+	color: #3399CC;
+	margin: 0 0 20px 0;
+}
+
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+
+/*Highlights the resort name*/
+.resort {
+	color: #5C7FA3;
+	font-weight: bold;
+}
+
+#contact {
+	font-size: 90%;
+	margin-top: 20px;
+}
+
+dt {
+	color: #000033;
+}
+
+
+/*Aligns the footer with the main white box full of the content*/
+footer {
+	background-color: #FFFFFF;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 75%;
+	font-style: italic;
+	margin-left: 190px;
+	padding: 20px;
+}
